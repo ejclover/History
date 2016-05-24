@@ -1,0 +1,65 @@
+#question{
+  height: 15vh;
+  width: 15vw;
+  margin-left:auto;
+  margin-right:auto;
+}
+.buttons{
+  height: 30vh;
+  width: 30vw;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.score {
+
+  float: right;
+}
+
+#time {
+  background-color:white;
+  height: 0vh;
+  width:20vw;
+}
+#playerW {
+  
+  visibility: none !important;
+}
+
+button:hover {
+  background-color: lightblue;
+}
+
+
+button{
+  font-size:30px;
+  border-radius:785px;
+  
+  background-color: orange;
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+  float:right;
+  float:left;
+  color:purple;
+  min-width:200px;
+}
+
+#question{
+  color:green;
+  font-size:25px;
+}
+#time{
+  font-size:80px;
+  color:Red;
+}
+.score{
+  font-size:80px;
+  color:gold;
+}
+
+
+
+
+/* Add CSS to make elements with the ID playerW have visibility hidden */
+/* Add CSS to make elements with the ID playlist have visibility hidden */
